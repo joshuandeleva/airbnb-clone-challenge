@@ -1,0 +1,39 @@
+.banner {
+	height: 50vh;
+	background: url("https://tr-images.condecdn.net/image/K67w1oOM8K7/crop/1020/f/stroll-to-holland-park-from-an-art-filled-stylish-flat-002-airbnb-sept20-pr.jpg")
+		center center;
+	position: relative;
+}
+.banner__info {
+	background-color: black;
+	color: white;
+	padding-top: 25vh;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 40px;
+	width: 300px;
+}
+.banner__search {
+	display: flex;
+	flex-direction: column;
+}
+.banner__searchButton {
+	background-color: white !important;
+	color: #ff385c !important;
+	font-weight: 900 !important;
+	text-transform: inherit !important;
+}
+.banner__info > button {
+	background-color: #ff385c;
+	margin-top: 20px;
+	font-weight: 600;
+	color: white;
+	text-transform: inherit;
+}
+.banner__info > h5 {
+	margin-top: 10px;
+}
+.banner__info > button:hover {
+	background-color: white;
+	color: #ff385c;
+}
